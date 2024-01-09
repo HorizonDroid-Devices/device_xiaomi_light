@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/light/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
+HORIZON_MAINTAINER := Taki_Tachibana
+CUSTOM_BUILD_TYPE := Official
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_light
 PRODUCT_DEVICE := light
