@@ -14,10 +14,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from light device
 $(call inherit-product, device/xiaomi/light/device.mk)
 
-# PixelExperience Stuff
+# Horizon-Droid Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-
 HORIZON_MAINTAINER := Taki_Tachibana
 CUSTOM_BUILD_TYPE := Official
 
@@ -29,6 +28,7 @@ PRODUCT_BRAND := Redmi
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-BUILD_FINGERPRINT := "google/redfin/redfin:13/TQ3A.230901.001/10750268:user/release-keys"
+    BUILD_FINGERPRINT := Redmi/light/light:13/TP1A.220624.014/V14.0.5.0.TLSMIXM:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 13 TQ3A.230901.001 10750268 release-keys"
+PRIVATE_BUILD_DESC="missi_phoneext4_global-user 13 TP1A.220624.014 V14.0.5.0.TLSMIXM release-keys" 
+
